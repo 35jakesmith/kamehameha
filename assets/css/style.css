@@ -111,13 +111,6 @@ section {
     display: inline-flexbox;
   }
 
-
-  .steps {
-    text-align: center;
-    background: black;
-    ;
-  }
-
   .section-title {
     font-size: 55px;
     color: #000;
@@ -134,16 +127,14 @@ section {
   .secondary-border {
     border-color: #000;
   }
-
+  
+/* css for my work projects */
   .boxed {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* set column sizes here */
-    grid-template-rows: auto auto; /* we want two rows */
-
-    grid-gap: 2px; /* how far between cells? */
-    grid-auto-flow: column; /* fill in by column, not row */
-
-    /* temporary property for visualization */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 2px;
+    grid-auto-flow: column; 
     height: 150px;
     display: flex;
     border: 1px solid black;
@@ -159,6 +150,7 @@ section {
     font-size: 25px;
   }
   
+  /* css hover function */
 .button {
   background-color: #ffffff; 
   border: none;
