@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav {
+    margin: auto 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer p {
+  color: white;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: white;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+section {
+    padding: 60px;
+  }
+
+.hero {
+    background-image: url("../images/snow-as_130246761-1024x682.jpeg");
+    background-size: cover;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 33px;
+    height: 300px;
+  }  
+
+  .hero-copy {
+    padding-top: 30px;
+  }
+
+  .intro {
+      text-align: center;
+  }
+
+  .intro p {
+    line-height: 1.7;
+    color: #000;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .intro h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-flexbox;
+  }
+
+
+  .steps {
+    text-align: center;
+    background: black;
+    ;
+  }
+
+  .section-title {
+    font-size: 55px;
+    color: #000;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-flexbox;
+    border-bottom: 1px solid;
+  }
+  
+  .primary-border {
+    border-color: black;
+  }
+  
+  .secondary-border {
+    border-color: #000;
+  }
+
+  .boxed {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* set column sizes here */
+    grid-template-rows: auto auto; /* we want two rows */
+
+    grid-gap: 2px; /* how far between cells? */
+    grid-auto-flow: column; /* fill in by column, not row */
+
+    /* temporary property for visualization */
+    height: 150px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+  }
+
+  .boxed span {
+    vertical-align: middle;
+    line-height: 4.2;
+    font-size: 25px;
+  }
+  
+.button {
+  background-color: #ffffff; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+  color: white;
+}
